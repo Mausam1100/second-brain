@@ -1,4 +1,4 @@
-import { Share2, Trash2 } from "lucide-react"
+import {  Trash2 } from "lucide-react"
 import { cn } from "../lib/utils"
 import { textVariants } from "./styles/typography"
 import { TwitterTweetEmbed } from "react-twitter-embed";
@@ -55,7 +55,6 @@ const embedTwitterLink =
                 </div>
                 
                 <div className="flex items-center gap-x-3">
-                    <div><Share2 className="cursor-pointer" size={18} color="#9499A1" /></div>
                     <div><Trash2 className="cursor-pointer" onClick={() => openModal(contentId!)} size={20} color="#9499A1" /></div>
                 </div>
             </div>

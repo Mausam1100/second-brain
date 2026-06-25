@@ -16,7 +16,7 @@ export const generateLinkToken = async (req: Request, res: Response) => {
                 })
             }
 
-            const token = crypto.randomBytes(16).toString("hex")
+            const token = crypto.randomBytes(5).toString("hex")
             await Link.create({
                 token,
                 userId

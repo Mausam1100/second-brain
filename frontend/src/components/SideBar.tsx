@@ -49,7 +49,7 @@ function SideBar() {
             </div>
 
             <div className="px-4 py-4">
-                <div onClick={() => openModal()} className="bg-red-400 cursor-pointer w-full text-white py-2 font-semibold px-4 rounded-lg">
+                <div onClick={() => openModal()} className="bg-red-400 cursor-pointer text-center w-full text-white py-2 font-semibold px-4 rounded-lg">
                     Log Out
                 </div>
             </div>
